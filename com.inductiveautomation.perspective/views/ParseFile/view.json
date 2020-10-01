@@ -9,7 +9,7 @@
           "dom": {
             "onClick": {
               "config": {
-                "script": "\tself.getSibling(\"Label\").props.text\u003d FunctionLibrary.GetString(\"Program\")"
+                "script": "\tself.getSibling(\"Label\").props.text\u003d FunctionLibrary.GetString(\"Program .. New change\")"
               },
               "scope": "G",
               "type": "script"
@@ -39,6 +39,21 @@
         },
         "props": {
           "text": "This is pass from function Program"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 20,
+          "width": 206,
+          "x": 319.006,
+          "y": 259.006
+        },
+        "props": {
+          "text": "New lable"
         },
         "type": "ia.display.label"
       }
